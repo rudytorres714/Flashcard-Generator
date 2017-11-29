@@ -1,21 +1,21 @@
 {
-  "name": "hangman",
+  "name": "flashcard-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "flashcards.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rudytorres714/hangman.git"
+    "url": "git+https://github.com/rudytorres714/Flashcard-Generator.git"
   },
   "author": "rudy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rudytorres714/hangman/issues"
+    "url": "https://github.com/rudytorres714/Flashcard-Generator/issues"
   },
-  "homepage": "https://github.com/rudytorres714/hangman#readme",
+  "homepage": "https://github.com/rudytorres714/Flashcard-Generator#readme",
   "dependencies": {
     "inquirer": "^4.0.0"
   }

@@ -1,13 +1,6 @@
 var inquirer = require("inquirer");
 var count = 0;
 
-var newFlashCard = function (front, back) {
-    this.front = front;
-
-    this.back = back;
-
-};
-
 var cards = [
 
     {
@@ -90,6 +83,12 @@ var cards = [
 
 ];
 
+function newFlashCard (front, back) {
+    this.front = front;
+
+    this.back = back;
+
+};
 
 function startBasic()    {
 
@@ -203,7 +202,7 @@ function startNewGame() {
 
 
 }
-var newGameFlashCard = function (front, back) {
+function newGameFlashCard (front, back) {
     this.front = front;
 
     this.back = back;
